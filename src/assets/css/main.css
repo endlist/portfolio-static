@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300|Crushed|Glass+Antiqua');
+
+.symbol {
+  font-size:3em;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  background: #333;
+}
+h1,h2,h3,h4,h5 {
+font-family: 'Glass Antiqua', cursive;
+}
+header, footer, .content {
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* LOGO */
+svg.defs-only {
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+line {
+  stroke: lightgrey;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+/* .logo-bracket line { */
+/*   stroke-opacity: .5; */
+/* } */
+text {
+  font-size: 8em;
+  font-family: 'Glass Antiqua', sans-serif;
+}
+/* END LOGO */

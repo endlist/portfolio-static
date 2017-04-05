@@ -1,52 +1,89 @@
 <!DOCTYPE html>
+<svg class="defs-only" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="svg-logo" width="420" height="100" xmlns="http://www.w3.org/2000/svg">
+    <g class="logo-bracket bracket-left">
+      <line x1="35" x2="10" y1="10" y2="50" />
+      <line x1="10" x2="35" y1="50" y2="90" />
+    </g>
+      <line x1="60" x2="50" y1="5" y2="95" />
+      <text x="70" y="93">li</text>
+    <g class="logo-bracket bracket-right" x="20">
+      <line x1="135" x2="160" y1="10" y2="50" />
+      <line x1="160" x2="135" y1="50" y2="90" />
+    </g>
+    <text x="170" y="93">wren</text>
+  </symbol>
+</svg>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?c2sn1i">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/font/monosocialiconsfont.css">
   <title>Portfolio</title>
 </head>
-<body>
+<body class="container">
   <header>
-    <h1>Jane Doette</h1>
-    <div>Front-end Ninja</div>
+    <div class="row d-flex flex-row-reverse align-items-baseline">
+      <div class="logo col-6">
+        <svg viewBox="0 0 420 100">
+          <use xlink:href="#svg-logo">
+        </svg>
+      </div>
+      <div class="interaction-icons col-6">
+        <span class="symbol"><a href="http://twitter.com/wrenishly">twitterbird</a></span>
+        <span class="symbol"><a href="http://github.com/endlist">githubalt</a></span>
+        <span class="symbol"><a href="https://www.linkedin.com/in/endlist">linkedin</a></span>
+      </div>
+    </div>
   </header>
-  <div class="container">
+  <section class="content">
     <picture>
-      <img src="https://unsplash.it/720/500?image=923" alt="">
+      <source
+        media="(min-width: 720px)"
+        srcset="assets/portrait.png"
+      />
+      <img src="assets/portrait.png" class="img-fluid" alt="">
     </picture>
-    <section>
-      <h2>Featured Work</h2>
-      <article class="project">
-        <picture>
-          <img src="https://unsplash.it/300/200?image=977" alt="">
-        </picture>
+    <h2 class="text-lowercase">Featured Work</h2>
+    <article class="project row">
+      <picture class="col">
+        <img src="https://unsplash.it/300/200?image=977" class="img-fluid" alt="">
+      </picture>
+      <div class="col-8">
         <title>
           <h3>Appify</h3>
         </title>
-        <caption>https://github.com/udacity/Appify</caption>
-      </article>
-      <article class="project">
-        <picture>
-          <img src="https://unsplash.it/300/200?image=998" alt="">
-        </picture>
+        <caption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Nonne igitur tibi videntur, inquit, mala? Negat esse eam, inquit, propter se expetendam. Amicitiam autem adhibendam esse censent, quia sit ex eo genere, quae prosunt. Duo Reges: constructio interrete. Omnia contraria, quos etiam insanos esse vultis. Progredientibus autem aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. Quos quidem tibi studiose et diligenter tractandos magnopere censeo. A mene tu? Piso, familiaris noster, et alia multa et hoc loco Stoicos irridebat: Quid enim?</caption>
+      </col>
+    </article>
+    <article class="project row">
+      <picture class="col">
+        <img src="https://unsplash.it/300/200?image=998" class="img-fluid" alt="">
+      </picture>
+      <div class="col-8">
         <title>
           <h3>Sunflower</h3>
         </title>
-        <caption>https://github.com/udacity/Sunflower</caption>
-      </article>
-      <article class="project">
-        <picture>
-          <img src="https://unsplash.it/300/200?image=1053" alt="">
-        </picture>
+        <caption>Itaque contra est, ac dicitis; Velut ego nunc moveor. Utrum igitur tibi litteram videor an totas paginas commovere? Honesta oratio, Socratica, Platonis etiam. An est aliquid, quod te sua sponte delectet? Ex rebus enim timiditas, non ex vocabulis nascitur. Sed potestne rerum maior esse dissensio? Inde sermone vario sex illa a Dipylo stadia confecimus. Quid, quod res alia tota est? Quae in controversiam veniunt, de iis, si placet, disseramus. Sit hoc ultimum bonorum, quod nunc a me defenditur; Hoc dictum in una re latissime patet, ut in omnibus factis re, non teste moveamur./caption>
+      </div>
+    </article>
+    <article class="project row">
+      <picture class="col">
+        <img src="https://unsplash.it/300/200?image=1053" class="img-fluid" alt="">
+      </picture>
+      <div class="col-8">
         <title>
           <h3>Bokeh</h3>
         </title>
-        <caption>https://github.com/udacity/Bokeh</caption>
-      </article>
-    </section>
-  </div>
+        <caption>Nos cum te, M. Dolor ergo, id est summum malum, metuetur semper, etiamsi non aderit; Proclivi currit oratio. Quodsi ipsam honestatem undique pertectam atque absolutam. Torquatus, is qui consul cum Cn. Memini vero, inquam; Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Non risu potius quam oratione eiciendum?</caption>
+      </div>
+    </article>
+  </section>
   <footer>Made with emmet.io</footer>
 </body>
 </html>
