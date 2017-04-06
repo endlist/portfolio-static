@@ -22,12 +22,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" type="image/png" href="./assets/favicon32.png" />
-  <link href='//fonts.googleapis.com/css?family=Alegreya+Sans:300|Crushed|Glass+Antiqua' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?c2sn1i">
+  <link rel="icon" type="image/png" href="assets/favicon32.png" />
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300|Crushed|Glass+Antiqua' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/font/monosocialiconsfont.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/font/monosocialiconsfont.css">
   <title>Portfolio</title>
 </head>
 <body class="container-fluid">
@@ -48,12 +47,19 @@
     </div>
     <picture>
       <source
-        media="(min-width: 720px)"
+        media="(min-width: 1290px)"
         srcset="assets/portrait.png"
+        />
+      <source
+        media="(min-width: 720px)"
+        srcset="assets/portrait720.png"
         />
       <img src="assets/20170305-twitter-header.png" class="img-fluid" alt="">
     </picture>
   </header>
+  <section class="intro text-center rounded-bottom">
+    <p class="font-glass-antiqua">code witch.</p>
+  </section>
   <section class="content">
     <h2 class="text-lowercase">Projects</h2>
     <article class="project row">

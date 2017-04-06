@@ -1,31 +1,14 @@
-.symbol {
-  font-size:3em;
-}
-
 body {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 300;
   background: #F2ECCD;
   color: #fff;
 }
-h1,h2,h3,h4,h5 {
+h3 {
   color: #000;
+}
+.font-glass-antiqua {
   font-family: 'Glass Antiqua', cursive;
-}
-header {
-  background: #000;
-}
-.logo {
-  /* background: #BF4135; */
-  padding: 15px;
-}
-.logo svg {
-  padding: 0;
-}
-
-col:last-of-type,
-col-*:last-of-type {
-  padding-right: 0;
 }
 
 a {
@@ -37,13 +20,38 @@ a:active {
   text-decoration: none;
 }
 a:focus {
+  color: #BF4135;
   text-decoration: none;
 }
 a:visited {
   text-decoration: none;
 }
 a:hover {
+  color: #BF4135;
   text-decoration: none;
+}
+
+.symbol {
+  font-size:3em;
+}
+
+header
+{
+  background: #000;
+}
+
+.logo {
+  /* background: #BF4135; */
+  padding: 15px;
+}
+.logo svg {
+  padding: 0;
+}
+
+.intro {
+  background: #bf4135;
+  padding: 10px 10px 5px;
+  font-size: 1.25em;
 }
 
 .content {
