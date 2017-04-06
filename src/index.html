@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <svg class="defs-only" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="svg-logo" width="420" height="100" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="svg-logo" width="170" height="100" xmlns="http://www.w3.org/2000/svg">
     <g class="logo-bracket bracket-left">
       <line x1="35" x2="10" y1="10" y2="50" />
       <line x1="10" x2="35" y1="50" y2="90" />
@@ -11,7 +11,9 @@
       <line x1="135" x2="160" y1="10" y2="50" />
       <line x1="160" x2="135" y1="50" y2="90" />
     </g>
-    <text x="170" y="93">wren</text>
+  </symbol>
+  <symbol id="svg-text" width="240" height="100">
+    <text x="0" y="93">wren</text>
   </symbol>
 </svg>
 
@@ -20,36 +22,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="./assets/favicon32.png" />
   <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?c2sn1i">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/font/monosocialiconsfont.css">
   <title>Portfolio</title>
 </head>
-<body class="container">
-  <header>
-    <div class="row d-flex flex-row-reverse align-items-baseline">
-      <div class="logo col-6">
-        <svg viewBox="0 0 420 100">
-          <use xlink:href="#svg-logo">
-        </svg>
-      </div>
-      <div class="interaction-icons col-6">
-        <span class="symbol"><a href="http://twitter.com/wrenishly">twitterbird</a></span>
-        <span class="symbol"><a href="http://github.com/endlist">githubalt</a></span>
-        <span class="symbol"><a href="https://www.linkedin.com/in/endlist">linkedin</a></span>
-      </div>
+<body class="container-fluid">
+  <header class="row d-flex flex-row-reverse align-items-center">
+    <div class="logo col-3 col-sm-4 d-flex justify-content-end align-items-baseline">
+      <svg viewBox="0 0 170 100" class="col-sm-4">
+        <use xlink:href="#svg-logo">
+      </svg>
+      <svg viewBox="0 0 240 100" class="col-sm-5 hidden-xs-down">
+        <use xlink:href="#svg-text">
+      </svg>
     </div>
-  </header>
-  <section class="content">
+    <div class="interaction-icons col-9 col-sm-8">
+      <span class="symbol"><a href="http://twitter.com/wrenishly">twitterbird</a></span>
+      <span class="symbol"><a href="http://github.com/endlist">githubalt</a></span>
+      <span class="symbol"><a href="https://www.linkedin.com/in/endlist">linkedin</a></span>
+      <span class="symbol"><a href="mailto:self&#64;endlist&#46;io">email</a></span>
+    </div>
+  </div>
+  <div class="row">
     <picture>
       <source
         media="(min-width: 720px)"
         srcset="assets/portrait.png"
-      />
-      <img src="assets/portrait.png" class="img-fluid" alt="">
+        />
+      <img src="assets/20170305-twitter-header.png" class="img-fluid" alt="">
     </picture>
-    <h2 class="text-lowercase">Featured Work</h2>
+  </header>
+  <section class="content">
+    <h2 class="text-lowercase">Projects</h2>
     <article class="project row">
       <picture class="col">
         <img src="https://unsplash.it/300/200?image=977" class="img-fluid" alt="">

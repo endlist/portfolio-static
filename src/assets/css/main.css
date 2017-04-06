@@ -7,19 +7,33 @@
 body {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 300;
-  background: #333;
+  background: #F2ECCD;
+  color: #fff;
 }
 h1,h2,h3,h4,h5 {
-font-family: 'Glass Antiqua', cursive;
+  color: #000;
+  font-family: 'Glass Antiqua', cursive;
 }
-header, footer, .content {
-  background: white;
+header {
+  background: #000;
+}
+.logo {
+  /* background: #BF4135; */
+  padding: 15px;
+}
+.logo svg {
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+  color: #69BF8E;
+  cursor: pointer;
 }
 a:active {
+  text-decoration: none;
+}
+a:focus {
   text-decoration: none;
 }
 a:visited {
@@ -29,7 +43,25 @@ a:hover {
   text-decoration: none;
 }
 
+.content {
+  padding: 20px;
+}
+
+.project div {
+  background: #d88f36;
+}
+
+.project img {
+  border: 5px solid #BF4135;
+}
+
 /* LOGO */
+svg {
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
 svg.defs-only {
   display: block;
   position: absolute;
@@ -41,7 +73,7 @@ svg.defs-only {
   overflow: hidden;
 }
 line {
-  stroke: lightgrey;
+  stroke: #D88F36;
   stroke-width: 10;
   stroke-linecap: round;
 }
@@ -51,5 +83,6 @@ line {
 text {
   font-size: 8em;
   font-family: 'Glass Antiqua', sans-serif;
+  fill: #F2ECCD;
 }
 /* END LOGO */
