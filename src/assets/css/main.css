@@ -59,11 +59,12 @@ nav {
 }
 
 .intro {
+  margin-top: 0;
   background: #bf4135;
   padding: 10px 10px 5px;
 }
 
-.content {
+section {
   margin-top: 10px;
   padding: 30px;
   background: #F2B74B;
