@@ -35,9 +35,15 @@ a:hover {
   font-size:3em;
 }
 
-header
+header,
+footer
 {
   background: #000;
+}
+
+footer {
+  padding: 10px 20px;
+  font-size: .75em;
 }
 
 nav {
