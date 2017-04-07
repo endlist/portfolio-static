@@ -42,7 +42,7 @@ footer
 }
 
 footer {
-  padding: 10px 20px;
+  padding: 5px;
   font-size: .75em;
 }
 
@@ -58,20 +58,29 @@ nav {
   padding: 0;
 }
 
-.intro {
-  margin-top: 0;
-  background: #bf4135;
-  padding: 10px 10px 5px;
-}
-
 section {
-  margin-top: 10px;
   padding: 30px;
   background: #F2B74B;
 }
 
+.intro {
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: #bf4135;
+  padding: 10px 15px 5px;
+}
+
 .project img {
   border: 5px solid #D88F36;
+}
+
+@media(min-width: 720px) {
+  .intro {
+    position: absolute;
+    margin-top: -138px;
+    border-radius: 5px 5px 0 0;
+    opacity: .9;
+  }
 }
 
 /* LOGO */
