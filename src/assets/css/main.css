@@ -2,10 +2,10 @@ body {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 300;
   background: #F2ECCD;
-  color: #fff;
+  color: #000;
 }
 h3 {
-  color: #000;
+  color: #bf4135;
 }
 .font-glass-antiqua {
   font-family: 'Glass Antiqua', cursive;
@@ -13,8 +13,13 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #69BF8E;
+  color: #135f64;
   cursor: pointer;
+}
+.symbol a,
+nav a,
+footer a {
+  color: #69bf83;
 }
 a:active {
   text-decoration: none;
@@ -39,6 +44,7 @@ header,
 footer
 {
   background: #000;
+  color: #fff;
 }
 
 footer {
@@ -68,10 +74,14 @@ section {
   margin-bottom: 10px;
   background: #bf4135;
   padding: 10px 15px 5px;
+  color: #fff;
 }
 
 .project img {
   border: 5px solid #D88F36;
+}
+.entry h4 {
+  color: #135f64;
 }
 
 @media(min-width: 720px) {
