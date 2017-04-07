@@ -40,6 +40,10 @@ header
   background: #000;
 }
 
+nav {
+  background: #135f64;
+}
+
 .logo {
   /* background: #BF4135; */
   padding: 15px;
@@ -51,19 +55,16 @@ header
 .intro {
   background: #bf4135;
   padding: 10px 10px 5px;
-  font-size: 1.25em;
 }
 
 .content {
-  padding: 20px;
-}
-
-.project div {
-  background: #d88f36;
+  margin-top: 10px;
+  padding: 30px;
+  background: #F2B74B;
 }
 
 .project img {
-  border: 5px solid #BF4135;
+  border: 5px solid #D88F36;
 }
 
 /* LOGO */
