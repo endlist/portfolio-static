@@ -31,8 +31,6 @@ a.symbol:before {
 }
 
 a.symbol {
-    background: #9f9f9f;
     padding: 7px 5px 3px 5px;
-    color: white;
     text-decoration: none;
 }
