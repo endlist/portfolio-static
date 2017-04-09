@@ -16,7 +16,7 @@ a {
   color: #135f64;
   cursor: pointer;
 }
-.symbol a,
+a.symbol,
 nav a,
 footer a {
   color: #69bf83;
