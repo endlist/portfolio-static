@@ -84,6 +84,12 @@ section {
   color: #135f64;
 }
 
+@media(min-width: 1500px) {
+  .symbol {
+    font-size: 3em;
+  }
+}
+
 @media(min-width: 720px) {
   .intro {
     position: absolute;
