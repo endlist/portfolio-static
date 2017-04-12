@@ -1,14 +1,19 @@
 body {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 300;
-  background: #F2ECCD;
+  background: #f2eccd;
   color: #000;
 }
+
 h3 {
   color: #bf4135;
 }
+
+.font-alegreya-sans {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+}
+
 .font-glass-antiqua {
-  font-family: 'Glass Antiqua', cursive;
+  font-family: "Glass Antiqua", cursive;
 }
 
 a {
@@ -16,40 +21,44 @@ a {
   color: #135f64;
   cursor: pointer;
 }
-a.symbol,
+
+.symbol,
 nav a,
 footer a {
   color: #69bf83;
 }
+
 a:active {
   text-decoration: none;
 }
+
 a:focus {
-  color: #BF4135;
+  color: #bf4135;
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
-  color: #BF4135;
+  color: #bf4135;
   text-decoration: none;
 }
 
 .symbol {
-  font-size:2em;
+  font-size: 2em;
 }
 
 header,
-footer
-{
+footer {
   background: #000;
   color: #fff;
 }
 
 footer {
   padding: 5px;
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 nav {
@@ -59,13 +68,15 @@ nav {
 .logo {
   padding: 15px;
 }
+
 .logo svg {
   padding: 0;
 }
 
-section {
+.work,
+.posts {
   padding: 30px;
-  background: #F2B74B;
+  background: #f2b74b;
 }
 
 .intro {
@@ -77,10 +88,11 @@ section {
 }
 
 .project img {
-  border: 5px solid #D88F36;
+  border: 5px solid #d88f36;
 }
+
 .entry h4 {
-  color: #135f64;
+  color: #135F64;
 }
 
 @media(min-width: 1500px) {
@@ -94,7 +106,7 @@ section {
     position: absolute;
     margin-top: -138px;
     border-radius: 5px 5px 0 0;
-    opacity: .9;
+    opacity: 0.9;
   }
 }
 
@@ -102,36 +114,15 @@ section {
   .project img {
     margin-bottom: 20px;
   }
+
   .project:last-of-type img {
     margin-bottom: 0;
   }
 }
 
-/* LOGO */
-svg {
-  max-height: 100%;
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
+@media(max-width: 320px) {
+  .symbol {
+    font-size: 1.5em;
+  }
 }
-svg.defs-only {
-  display: block;
-  position: absolute;
-  height: 0;
-  width: 0;
-  margin: 0;
-  padding: 0;
-  border: none;
-  overflow: hidden;
-}
-line {
-  stroke: #D88F36;
-  stroke-width: 10;
-  stroke-linecap: round;
-}
-text {
-  font-size: 8em;
-  font-family: 'Glass Antiqua', sans-serif;
-  fill: #F2ECCD;
-}
-/* END LOGO */
+

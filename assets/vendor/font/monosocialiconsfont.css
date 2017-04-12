@@ -25,7 +25,7 @@
 }
 
 a.symbol:before {
-    content: attr(title);
+    content: attr(data-content);
     margin-right: 0.3em;
     font-size: 130%;
 }
