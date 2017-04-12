@@ -57,7 +57,6 @@ nav {
 }
 
 .logo {
-  /* background: #BF4135; */
   padding: 15px;
 }
 .logo svg {
@@ -130,9 +129,6 @@ line {
   stroke-width: 10;
   stroke-linecap: round;
 }
-/* .logo-bracket line { */
-/*   stroke-opacity: .5; */
-/* } */
 text {
   font-size: 8em;
   font-family: 'Glass Antiqua', sans-serif;
